@@ -1,6 +1,63 @@
-.square {
-    width: 50px;
-    height: 50px;
-    margin: 10px;
+html, body {
+    height: 100%;
+}
+
+header {
     background-color: blue;
+    height: 60px;
+    position: relative;
+}
+
+#logo {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    background-color: red;
+}
+
+nav {
+    width: 900px;
+    background-color: lightblue;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+nav > a {
+    flex-grow: 1;
+    padding: 20px 0 0 0;
+}
+
+#main-container {
+    background: green;
+    width: 900px;
+    margin: auto;
+    min-height: 100%;
+}
+
+#main-image {
+    background-color: mediumpurple;
+    width: 100%;
+    height: 300px;
+}
+
+#column-container {
+    background-color: chartreuse;
+    display: flex;
+}
+
+.column {
+    background-color: red;
+    min-height: 500px;
+    width: 45%;
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+footer {
+    background-color: darkgray;
+    height: 60px;
 }

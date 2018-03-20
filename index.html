@@ -8,17 +8,25 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <h4>Javascript Example</h4>
+    <header>
+        <span id="logo"></span>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contacts</a>
+        </nav>
+    </header>
+    <div id="main-container">
+        <div id="main-image"></div>
+        <div id="column-container">
+            <div class="column"></div>
+            <div class="column"></div>
+        </div>
+        <footer></footer>
+    </div>
 
 
-    <!-- These buttons below will call the functions in my script.js file.  -->
-    <button onclick="makeNewDiv()">Add Div</button>
-    <button onclick="removeDiv()">Remove Div</button>
-
-    <br />
-    <br />
-
-    <!-- This is the only HTML element. HTML can't make anymore of these once the page loads. But Javascript can-->
-    <div class="square"></div>
 </body>
 </html>
