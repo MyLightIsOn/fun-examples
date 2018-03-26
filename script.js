@@ -25,16 +25,19 @@ function makeNewDiv() {
 /* This will remove the lasts div added */
 function removeDiv() {
 
-    /* In this line, the code is getting all element on the
+    /* In this line, the code is getting all elements on the
     * page that have the class square and storing it in a variable
     * myDivs. Because it's more than one element, it will put them
      * in an array. An array is multpile objects. */
     var myDivs = document.getElementsByClassName('square');
 
-    /*This line is telling the broswer to move the last element
+    /*This line is telling the broswer to remove an element
     * from the document body. Because we are passing in that array
     * it is going to remove the first item in the array. The [0]
-    * is what is saying the first element because javascript starts
-    * counting at 0 instead of 1*/
+    * is what is identifying the first element because javascript starts
+    * counting at 0 instead of 1. 
+    *
+    *Think of the array like this = MyDivs[0], myDivs[1], myDivs[2]...
+    */
     document.body.removeChild(myDivs[0]);
 }
