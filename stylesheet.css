@@ -1,25 +1,31 @@
 body{
     margin: auto;
+    padding:0;
 }
 
 .header{
     background-color: dodgerblue;
-    height: 120px;
+    height: 90px;
 }
 
 nav{
     margin: auto;
-    position: absolute;
+    position: relative;
     top: 0;
     width: 100%;
     height: 120px;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .nav-container {
     width: 800px;
     margin: auto;
     position: relative;
-    top: -90px;
 }
 
 ul {
@@ -30,12 +36,58 @@ ul {
 
 
 .list{
-    display: block;
-    margin: 20px;
+    display: inline;
     margin: auto;
+    position: relative;
+    top: 30px;
 }
 
 .main-image{
     margin: auto;
     display: block;
+    width: 100%;
+}
+
+.content{
+	width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.footer{
+    width: 100%;
+    background-color: dodgerblue;
+    height: 60px;
+}
+
+.text-content {
+    display: flex;
+}
+
+.column {
+    padding: 0 10px;
+}
+
+.owl-image-1 {
+    width: 80px;
+    float: left;
+    margin: 15px;
+}
+
+.owl-image-2 {
+    width: 90px;
+    float: right;
+    margin: 15px;
+}
+
+.owl-image-3 {
+    width: 60px;
+    float: right;
+    margin: 15px;
+}
+
+.owl-image-4 {
+    width: 100px;
+    float: left;
+    margin: 15px;
 }
